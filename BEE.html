@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BEE</title>
+	<style>
+		html {
+			background-image: url("https://wallpaperaccess.com/full/969287.jpg");
+			background-size: cover;
+		}
+		.hit {
+			color: yellow;
+			text-align: left;
+		}
+	</style>
+	<script type="text/JavaScript">
+		var pass = "Tuliskan Password Dengan Benar"
+		var nol = "!";
+		var satu = ", Saya Melvin Senang berkenalan denganmu";
+		var dua = ", Saya 15 Tahun"
+		var tiga = "Halo"
+		var empat = "Jawab jujur ya semua, tenang aja wa gbs tau apa aja yg lu jawab:)"
+		var lima = "Aku juga Sayang sama kamu:)"
+
+		function prompter() {
+			var reply = 1;
+			 do
+			 {
+			 	p = prompt("Tuliskan password dengan benar","");
+			 	if(p=="BEE")//Password Nama Panggilan Dari GEE
+			 	{
+			 		var reply = prompt("Hey, Siapa nama Kamu?", "")
+			 		alert(reply + satu + nol);
+			 		break;
+			 	}
+			 	else
+			 	{
+			 		alert("Password Salah !!! Ulangi lagi.");
+			 	}
+			 	if(reply==3)
+			 	{
+			 		alert("maaf, kesempatan anda hanya 3 kali");
+			 		history.go(-1);
+			 	}
+			 	reply=reply+1;
+			 }
+			while(reply<=3)
+		}             
+
+		function prompter1() {
+			var reply1 = 1;
+			do
+			{
+				p = prompt("Tuliskan password dengan benar","")
+				if(p=="GEE")//Password Nama Panggilan Dari BEE
+				{
+					var reply1 = prompt("Hey, Berapa Umur Kamu?", "")
+					alert(tiga + dua +nol);
+					break;
+				}
+				else
+				{
+					alert("Password Salah !!! Ulangi lagi.");
+				}
+				if(reply1==3)
+				{
+					alert("maaf, kesempatan anda hanya 3 kali");
+					history.go(-1);
+				}
+				reply1 = reply1 + 1
+			}
+			while(reply1<=3)
+		}
+
+		function prompter2() {
+			alert(empat)
+		}
+
+		function prompter3() {
+			var reply2 = 1;
+			do
+			{
+				p = prompt("Tuliskan password dengan benar","")
+				if(p==4)//Password Tanggal Jadian
+				{
+					var reply2 = prompt("Hari ini kita 1 tahun pacacran ya? (YES/NO)")
+					if(reply2=="YES")
+					{
+					alert("Ciieeeee Ingat YAA !!!");
+					break;
+					}
+					else 
+					{
+						alert("Yah lupa yak, yd gpp")
+					}
+				}
+				else
+				{
+					alert("Password Salah !!! Ulangi lagi.");
+				}
+				if(reply2==3)
+				{
+					alert("maaf, kesempatan anda hanya 3 kali");
+					history.go(-1);
+				}
+				reply2 = reply2 + 1
+			}
+			while(reply2<=3)
+		}
+
+		function prompter4() {
+			var reply3 = 1;
+			do
+			{
+				p = prompt("Tuliskan password dengan benar","")
+				if(p=="BEENGEE")//Password World Story Di Growtopia
+				{
+					var reply3 = prompt("Sayang ga sama aku?" + "(YES/NO)")
+					if(reply3=="YES")
+					{
+					alert(lima);
+					break;
+					}
+					else
+					{
+						alert("Hayoo beneran ga syg atau malu jawab YES")
+					}
+				}
+				else
+				{
+					alert("Password Salah !!! Ulangi lagi.");
+				}
+				if(reply3==3)
+				{
+					alert("maaf, kesempatan anda hanya 3 kali");
+					history.go(-1);
+				}
+				reply3 = reply3 + 1
+			}
+			while(reply3<=3)
+		}
+
+		function prompter5() {
+			var reply4 = 1;
+			do
+			{
+				p = prompt("Tuliskan password dengan benar","")
+				if(p=="MATCHA")//Password Makanan/Minuman Kesukaan BEE
+				{
+					var reply4 = prompt("Kalau Sayang, Sayang Sebagai Apa?")
+					alert("Oo" + ", Semoga seperti yg wa harapkan deh:)");
+					break;
+				}
+				else
+				{
+					alert("password Salah !!! Ulangi lagi.");
+				}
+				if(reply4==3)
+				{
+					alert("maaf, kesempatan anda hanya 3 kali")
+				}
+				reply4 = reply4 + 1
+			}
+			while(reply4<=3)
+		}
+
+		function prompter6() {
+			var reply5 = 1;
+			do
+			{
+				p = prompt("Tuliskan password dengan benar","")
+				if(p==15)//Password Tanggal Ulang Tahun BEE
+				{
+					var reply5 = prompt("Nama Panggilan Dari Aku")
+					var replys = prompt(reply5 + ", Aku ngeselin ya?")
+					var replyss = prompt(reply5 + ", Maaf klw selama ini wa keselin.\
+ Aku cuma khawatir & Aku gamau lu kenapa\"")
+					replysss = prompt("Maafin aku ya:(" + ", (YES/NO)")
+					if(replysss=="YES")
+					{
+					alert("Makasih Sayang")
+					break;
+					}
+					else
+					{
+						alert("Iya GPP Kok, Wa tau wa ngeselin bngt sampe gbs dimaafin")
+					}
+				}
+				else
+				{
+					alert("password Salah !!! Ulangi lagi.");
+				}
+				if(reply5==3)
+				{
+					alert("maaf, kesempatan anda hanya 3 kali")
+				}
+				reply5 = reply5 + 1
+			}
+			while(reply5<=3)
+		}
+
+	</script>
+</head>
+<body>
+
+	<!-- prompter -->
+	<table>
+		<thead>
+			<tr>
+				<th class="hit">1. Nama Panggilan Dari Aku</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>
+				<form method="post">
+			<input type="button" value="Satu" onclick="prompter()" style="padding-right: 48px; padding-left: 48px; object-position: right;"> 
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<!-- prompter1 -->
+	<table>
+		<thead>
+			<tr>
+				<th class="hit">2. Nama Panggilan Dari Kamu</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>
+				<form method="post">
+		<input type="button" value="Dua" onclick="prompter1()" style="padding-right: 50px; padding-left: 50px; object-position: right;">  
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<!-- prompter2 -->
+	<table>
+		<thead>
+			<tr>
+				<th class="hit">3. No Clue</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>
+				<form method="post">
+		<input type="button" onclick="prompter2()" value="Tiga" style="padding-right: 50px; padding-left: 50px; object-position: right;">  
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<!-- prompter3 -->
+	<table>
+		<thead>
+			<tr>
+				<th class="hit">4. Tanggal Jadian</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>
+				<form method="post">
+		<input type="button" onclick="prompter3()" value="Empat" style="padding-right: 43px; padding-left: 43px; object-position: right;"> 
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<!-- prompter4 -->
+	<table>
+		<thead>
+			<tr>
+				<th class="hit">5. Nama world di GT</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>
+				<form method="post">
+		<input type="button" onclick="prompter4()" value="Lima" style="padding-right: 48px; padding-left: 48px; object-position: right;">
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<!-- prompter5 -->
+	<table>
+		<thead>
+			<tr>
+				<th class="hit">6. Makanan/Minuman Kesukaan Kamu</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>
+				<form method="post">
+		<input type="button" onclick="prompter5()" value="Enam" style="padding-right: 45px; padding-left: 45px; object-position: right;">
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<!-- prompter6 -->
+	<table>
+		<thead>
+			<tr>
+				<th class="hit">7. Tanggal ulang tahun BEE</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>
+				<form method="post">
+		<input type="button" onclick="prompter6()" value="Tujuh" style="padding-right: 45px; padding-left: 45px; object-position: right;">
+				</form>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
